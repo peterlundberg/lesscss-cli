@@ -5,7 +5,7 @@
 	<artifactId>lesscss-cli</artifactId>
 	<version>1.0.0</version>
 	<name>LESS CLI</name>
-	<description>Command-line interface for lesscss-cli</description>
+	<description>Command-line interface for lesscss-java</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.lesscss</groupId>
