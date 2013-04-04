@@ -31,8 +31,12 @@ public class Main {
 			skipAnnoyingEnvjsOutput();
 			compile(arguments.getInputFilename(), arguments.getOutputFilename());
 		} catch (Exception e) {
+		    System.err.println("======================================");
+		    System.err.println("Problem compiling less:");
+			System.err.println(e.getMessage());
 			e.printStackTrace();
-			throw new RuntimeException(e);
+		    System.err.println("======================================");
+			System.exit(1);
 		}
 	}
 
