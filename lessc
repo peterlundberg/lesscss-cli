@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# See https://github.com/peterlundberg/lesscss-cli
+#
+# This is an example, adjust jar file location and version number as needed
+#
+java -jar $(dirname $0)/target/lesscss-cli-1.3.3-jar-with-dependencies.jar $@
